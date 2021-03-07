@@ -7,7 +7,7 @@ import Groom from '@assets/images/p-indra.jpg';
 import { styWrapper } from './styles';
 
 function HelloSection({ isInvitation }) {
-  const finalSubtitle = isInvitation ? '03 Oktober 2020, HARRIS Hotel Sentraland, Semarang' : 'Sabtu, 03 Oktober 2020';
+  const finalSubtitle = isInvitation ? 'Minggu, 21 Maret 2021 @ The Papandayan Hotel, Bandung' : 'Minggu, 21 Maret 2021';
 
   return (
     <Fragment>
@@ -17,11 +17,14 @@ function HelloSection({ isInvitation }) {
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <h2 className="main-font">Assalamualaikum Wr. Wb</h2>
               <h3 className="sub-title hs">{finalSubtitle}</h3>
-              <p className="info">
+              {/* <p className="info">
                 Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk
                 rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan
                 keberkahan.
-              </p>
+              </p>  */}
+              <p className="info">
+                Merupakan suatu kehormatan bagi kami apabila Ibu/Bapak/Saudara/i berkenan hadir pada acara pernikahan
+              </p> 
             </div>
           </div>
           <div className="couple-wrap">
@@ -30,9 +33,9 @@ function HelloSection({ isInvitation }) {
                 <img src={Bride} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-groom">
-                <h3 className="main-font">Dinda Saraswati, S.I.Kom.</h3>
+                <h2 className="main-font">Bellaria Putri Syawallita</h2>
                 <p className="parent-name parent-name__top">
-                  Putri Bapak Totok Somo Dipoyono <br />& Ibu Setyo Listiani
+                  Putri Bungsu Bpk. Dicky Djunaedi <br />& Ibu Yanti Maryuni
                 </p>
               </div>
             </div>
@@ -47,16 +50,16 @@ function HelloSection({ isInvitation }) {
                 <img src={Groom} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-bride">
-                <h3 className="main-font">Indra Kusuma, S.Kom.</h3>
+                <h2 className="main-font">Hendy Nopiyadi</h2>
                 <p className="parent-name">
-                  Putra Bapak Bunari <br />& Ibu Suratun
+                  Putra Pertama Bpk. Suyadi <br />& Ibu Warsiti Puji Astuti
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      {!isInvitation ? (
+      {/* {!isInvitation ? (
         <div id="fh5co-couple" className="fh5co-section-gray" css={styWrapper}>
           <div className="container">
             <div className="row">
@@ -75,7 +78,7 @@ function HelloSection({ isInvitation }) {
             </div>
           </div>
         </div>
-      ) : null}
+      ) : null} */}
     </Fragment>
   );
 }

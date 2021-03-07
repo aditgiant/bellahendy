@@ -1,4 +1,4 @@
-import ImgKembaliBerjumpa from '@assets/images/p-kembali-berjumpa.jpg';
+import ImgWearedating from '@assets/images/p-kembali-berjumpa.jpg';
 import ImgJakartaKroasia from '@assets/images/p-jakarta-kroasia.jpg';
 import ImgBoarding from '@assets/images/p-boarding-smg.jpg';
 import ImgKembaliKeIndonesia from '@assets/images/p-kembali-ke-indonesia.jpg';
@@ -6,45 +6,38 @@ import ImgNdodokLawang from '@assets/images/p-ndodok-lawang.jpg';
 
 export const stories = [
   {
-    title: 'Jumpa Pertama ',
-    date: '10 Oktober 2015',
+    title: ' OUR FIRST MEET UP',
+    date: '2017',
     description:
-      'Pertama kali kami dipertemukan di sebuah acara malam keakraban di kampus Universitas Dian Nuswantoro. Sebagai seorang mahasiswa baru, kala itu Dinda melihat Indra sedang sibuk memegang megaphone (toa) di tengah hiruk pikuk acara. Belum ada sesuatu yang spesial, kala itu justru Dinda melihat Indra banyak menerima surat pink (tanda kagum) dari teman sesama mahasiswa barunya.',
-    image: '',
+      'Pertama kali bertemu September 2017 di kantor. Awalnya B&H hanya kenal sebagai kenal teman kerja 🤣',
+    image: ImgNdodokLawang,
   },
   {
-    title: 'Kembali Berjumpa',
-    date: '9 September 2017',
+    title: 'WE ARE DATING',
+    date: '2018',
     description:
-      'Konferensi Future Leader Summit 2017 kembali mempertemukan mereka. Dinda sebagai peserta dan Indra sebagai panitia acara. Mulai dari saling sapa, mereka berdua tumbuh perasaan saling ingin mengenal lebih dalam. Seusai acara, Indra memberanikan diri untuk membangun komunikasi dengan Dinda. Dari pesan singkat pertama yang dikirimnya, Indra dan Dinda mulai dekat dan menjadi lebih sering mengirim kabar. ',
-    image: ImgKembaliBerjumpa,
+      'Seiring waktu berjalan, B&H semakin dekat karena pergi bersama, cari makan bareng dan 1 tempat kos (makanya bareng mulu hahahah). Dari situ, B&H cerita perasaan masing-masing tanggal 1 September 2018 dan memutuskan mulai pacaran.',
+    image: ImgWearedating,
   },
   {
-    title: 'Kisah Kasih di Kampus',
-    date: 'Oktober 2017 - 2018',
+    title: 'LDR',
+    date: '2019 - 2021',
     description:
-      'Sebagai sepasang mahasiswa dan mahasiswi, Dinda dan Indra memilih untuk mengisi kisah kasih di kampusnya dengan mengikuti berbagai kompetisi bersama. Kala itu, Dinda adalah mahasiswi Ilmu Komunikasi dan Indra adalah mahasiswa Teknik Informatika. Merupakan kolaborasi yang pas jika mengikuti kompetisi teknologi, Indra berperan sebagai seorang programmer dan Dinda sebagai seorang content development. Dinda dan Indra pernah membuat aplikasi Ayo Toba (Aplikasi Pariwisata Danau Toba) yang diajukan dalam kompetisi IT FEST Universitas Sumatera Utara di awal tahun 2018.',
+      'Baru berapa bulan pacaran, B&H harus siap untuk menghadapi LDR. Pada tanggal 1 Maret 2019 B&H mulai ber-LDR karena B melanjutkan pendidikan S2 di Korea. Walau mulanya B&H tak yakin untuk menghadapi ini selama 2 tahun, tetapi alhamdulliah, mungkin namanya jodoh B&H bisa menjaga perasaan masing-masing dan menetapkan untuk melangkah ke tahap lebih serius.',
     image: ImgJakartaKroasia,
   },
   {
-    title: 'Jakarta & Kroasia',
-    date: '2018 - 2019',
+    title: 'CANCEL ENGAGEMENT DAY',
+    date: '2020',
     description:
-      'Tidak selalu bersama, perjuangan dimulai ketika Indra memutuskan untuk bekerja di Jakarta sebagai seorang Software Engineer di Tokopedia. Belum usai masa LDR, pada 3 Oktober 2018, Dinda juga memutuskan untuk mengambil beasiswa di University of Split, Kroasia. Di bulan November 2018, Indra melangsungkan wisuda dan Dinda hanya bisa memberi virtual support melalui video call. ',
+      'Karena kedua keluarga sudah saling bertemu dan merestui hubungan, B&H berencana untuk lamaran pada Agustus 2020. Tetapi Allah punya rencana lain, lamaran diundur karena COVID-19 ke Februari 2021. Tapi, karena keterbatasan waktu lamaran dibatalkan.',
     image: ImgBoarding,
   },
   {
-    title: 'Kembali ke Indonesia',
-    date: '3 Maret 2019',
+    title: 'OUR WEDDING DAY',
+    date: '2021',
     description:
-      'Periode belajar di Kroasia telah selesai. Akhirnya Dinda kembali ke Indonesia! Ada tanggung jawab yang harus Dinda selesaikan seusai dari Kroasia, yakni harus menyelesaikan skripsi dan mencapai target untuk wisuda di bulan Agustus 2019. Selain itu, kembalinya Dinda ke Indonesia menjadi momen yang tepat bagi Indra untuk menyampaikan niat ingin serius kepada orang tua Dinda. Hal itu disambut baik oleh kedua orang tua mereka  dan sepakat akan melaksanakan acara Ndodok Lawang usai Dinda wisuda. Sebelum wisuda, Dinda sudah harus meniti karir di Jakarta sebagai seorang Content Analyst di Ruangguru.',
+      'Menemukan pasangan yang sempurna adalah hal yang sulit, B&H sadar banyak perbedaan dalam diri masing-masing. Meskipun begitu, B&H siap menghadapinya dan mengikat janji suci sehidup-semati di hadapan Allah, keluarga, serta sahabat tercinta. B&H berjanji untuk saling menyayangi, melengkapi, menerima baik dan buruk sampai tiba di surga-Nya.',
     image: ImgKembaliKeIndonesia,
-  },
-  {
-    title: 'Ndodok Lawang',
-    date: '31 Agustus 2019',
-    description:
-      'Akhirnya tiba di masa Indra dan keluarga hadir ke rumah Dinda untuk menyampaikan niat baik. Mulai dari acara Ndodok Lawang ini, dilanjutkan dengan persiapan pernikahan yang insha Allah akan diselenggarakan pada tanggal 3 Oktober 2020.',
-    image: ImgNdodokLawang,
-  },
+  }
 ];

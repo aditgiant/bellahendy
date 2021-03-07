@@ -19,7 +19,7 @@ export const styWithAnimation = (isActive) => css`
 
 export const styWrapperItem = css`
   h4 {
-    color: #828282;
+    color: rgb(98,97,90);
     font-weight: bold;
     text-transform: uppercase;
     margin: 0 0 4px 0;

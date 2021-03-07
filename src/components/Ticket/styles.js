@@ -23,7 +23,7 @@ export const styWrapper = css`
   }
 
   .details {
-    color: #828282;
+    color: rgb(98,97,90);
     padding: 16px 0;
     border-top: 1px dashed #c3c3c3;
   }
@@ -80,7 +80,7 @@ export const styWrapper = css`
   }
 
   .primary {
-    background: #f14e95;
+    background: #CC8D75;
     color: #fff;
     border: none;
   }
