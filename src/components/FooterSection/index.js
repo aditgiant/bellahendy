@@ -44,12 +44,12 @@ function FooterSection({ isInvitation }) {
                     Anandito Anisa - Pernikahan Impian
                   </a>
                 </small> */}
-                <small className="block">
+                {/* <small className="block">
                   Original Template from{' '}
                   <a href="http://freehtml5.co/" target="_blank" rel="noreferrer">
                     FREEHTML5.co
                   </a>
-                </small>
+                </small> */}
               </p>
             </div>
           </div>
