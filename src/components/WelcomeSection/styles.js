@@ -191,12 +191,14 @@ export const styWrapper = css`
   }
 
   .to-dearest {
+    
     font-size: 16px;
     color: #f1f1f1b3;
     margin-bottom: 8px;
   }
 
   .to-dearest-name {
+    font-family: 'Allura', cursive;
     border-bottom: 1px solid;
     padding-bottom: 12px;
     max-width: 250px;
@@ -224,6 +226,7 @@ export const styWrapper = css`
     }
 
     .to-dearest-name {
+      font-family: 'Allura', cursive;
       margin: auto auto 16px auto;
     }
   }
