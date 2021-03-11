@@ -41,7 +41,7 @@ function Home({ location }) {
         {/* {isInvitation && <CovidSection />} */}
         <LocationSection />
         <StorySection />
-        {/* <PhotoSection /> */}
+        <PhotoSection />
         {/* <WishesSection /> */}
         {/* <ConfirmationSection guestName={firstName} isInvitation={isInvitation} codeLink={finalTicketLink} /> */}
         <FooterSection isInvitation={isInvitation} />

@@ -59,7 +59,7 @@ function HelloSection({ isInvitation }) {
           </div>
         </div>
       </div>
-      {/* {!isInvitation ? (
+      {/* {!isInvitation ? ( */}
         <div id="fh5co-couple" className="fh5co-section-gray" css={styWrapper}>
           <div className="container">
             <div className="row">
@@ -78,7 +78,7 @@ function HelloSection({ isInvitation }) {
             </div>
           </div>
         </div>
-      ) : null} */}
+      {/* ) : null} */}
     </Fragment>
   );
 }
