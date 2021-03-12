@@ -10,7 +10,7 @@ function WeddingSection({ isInvitation }) {
     return (
       <Fragment>
         <div className="col-md-8 col-md-offset-2">
-          <WeddingInfoBox title="Akad Nikah" time="08.00 WIB (Live di Instagram)" date="Minggu, 21 Maret 2021" />
+          <WeddingInfoBox title="Akad Nikah" time="08.00 WIB (Live di YouTube)" date="Minggu, 21 Maret 2021" />
           <WeddingInfoBox title="Resepsi" time="10.30 - 12.15 WIB, 12.30 - 14.00 WIB " date="Minggu, 21 Maret 2021" />
         </div>
         <ButtonLive />
@@ -31,8 +31,9 @@ function WeddingSection({ isInvitation }) {
             </div>
           </div>
           <div className="row">
-            {!isInvitation && renderGuestInfo()}
-            {isInvitation && (
+            {/* {!isInvitation && renderGuestInfo()} */}
+            {renderGuestInfo()}
+            {/* {isInvitation && (
               <div className="col-md-10 col-md-offset-1">
                 <WeddingInfoBox
                   title="Akad Nikah"
@@ -47,7 +48,7 @@ function WeddingSection({ isInvitation }) {
                   description="Orange Ballroom <br/>HARRIS Hotel Sentraland, Semarang"
                 />
               </div>
-            )}
+            )} */}
           </div>
         </div>
       </div>

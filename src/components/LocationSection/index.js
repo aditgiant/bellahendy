@@ -28,7 +28,7 @@ function LocationSection() {
           </div>
           <div className="row">
             <div className="col-md-10 col-md-offset-1">
-              <iframe
+              {/* <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7257706073!2d107.62125401444318!3d-6.923348794997655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7d4924de9db%3A0x7fedfb7ec623192d!2sThe%20Papandayan%20Hotel!5e0!3m2!1ssv!2sid!4v1615108602708!5m2!1ssv!2sid"
                 width="100%"
                 height="450"
@@ -38,6 +38,16 @@ function LocationSection() {
                 aria-hidden="false"
                 tabIndex="0"
                 title="Google Maps - Bella & Hendy Wedding Party"
+              ></iframe> */}
+               <iframe
+                id="youtube-akad"
+                title="Akad Nikah Bella & Hendy"
+                width="100%"
+                height="310px"
+                src="https://www.youtube.com/embed/rxgUUj8RJaQ"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
               ></iframe>
             </div>
           </div>

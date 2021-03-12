@@ -8,7 +8,7 @@ function ButtonLive() {
     <div className="row">
       <div className="col-md-12">
         <p className="text__live">Hadiri online : </p>
-        <a href="https://youtu.be/rxgUUj8RJaQ" target="_blank" rel="noreferrer">
+        <a href="#youtube-akad" rel="noreferrer">
           <div css={styButtonWrapper}>
             <div className="img__wrapper">
               <img src={IconIg} alt="Live YouTube" />
