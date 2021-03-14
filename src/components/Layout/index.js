@@ -7,7 +7,7 @@ import '@assets/css/icomoon.css';
 import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
 
-const IMAGE_URL = `https://thekusuma.com/static/slide-6-4715e29302dbaa2ba21494c6258298d4.jpg`;
+const IMAGE_URL = `https://bellahendy.com/static/slide-6-4de631c59f3783f85a900eadd12c08ee.jpg`;
 const META_DESCRIPTION = `Our love stories :)`;
 
 function MainLayout({ children }) {
