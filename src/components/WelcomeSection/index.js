@@ -66,7 +66,10 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
       <header/>
       <video id="bg-video" css={styBackground1} playsinline autoPlay muted loop>
           <source src={BackgroundVideo} type="video/mp4"/>
-        </video>
+      </video>
+      <script>
+        document.getElementById('bg-video').play();
+      </script>
         <div className="overlay"></div>
         <div className="container">
           <div className="row" css={styWrapper}>
