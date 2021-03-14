@@ -2,7 +2,6 @@ import React from 'react';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import { photos } from './photo-data';
-import prewedding from '@assets/images/prewedding.mp4';
 
 function PhotoSection() {
   const renderYoutubeVideo = () => {
