@@ -120,6 +120,15 @@ export const styScrollWrapper = css`
   }
 `;
 
+export const styBackground1 = css`
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+`
+
 export const styBackground = css`
   background-size: cover;
   background-image: url(${Background});

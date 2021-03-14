@@ -1,11 +1,11 @@
 import React, { Fragment, useState } from 'react';
 import { object, string, bool, func } from 'prop-types';
 import { Link } from 'gatsby';
-
+import BackgroundVideo from '@assets/images/bg-welcome-vid.mp4';
 import WeddingImg from '@assets/images/wedding-logo.png';
 import CountContainer from './CountContainer';
 import ScrollToDown from './ScrollToDown';
-import { styWrapper, styHero, styBackground, styButtonWrapper } from './styles';
+import { styWrapper, styHero, styBackground, styBackground1, styButtonWrapper } from './styles';
 
 const DELAY_TIME = 1500;
 
@@ -62,8 +62,11 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
         role="banner"
         className="fh5co-cover"
         css={styBackground}
-        data-stellar-background-ratio="0.5"
-      >
+        data-stellar-background-ratio="0.5">
+      <header/>
+      <video id="bg-video" css={styBackground1} playsinline autoPlay muted loop>
+          <source src={BackgroundVideo} type="video/mp4"/>
+        </video>
         <div className="overlay"></div>
         <div className="container">
           <div className="row" css={styWrapper}>

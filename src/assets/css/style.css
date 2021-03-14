@@ -24,7 +24,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   color: rgb(98,97,90);
-  background: #FFFDF5;
+  background: rgba(255,253,245, 0.8);
 }
 
 #page {
