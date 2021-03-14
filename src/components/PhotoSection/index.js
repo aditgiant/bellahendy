@@ -2,6 +2,7 @@ import React from 'react';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import { photos } from './photo-data';
+import prewedding from '@assets/images/prewedding.mp4';
 
 function PhotoSection() {
   const renderYoutubeVideo = () => {
@@ -10,7 +11,7 @@ function PhotoSection() {
         title="Pre-Wedding Dinda & Indra"
         width="100%"
         height="360px"
-        src="https://www.youtube.com/embed/75w39OY7N-k"
+        src={prewedding}
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
@@ -33,9 +34,9 @@ function PhotoSection() {
               </p>
             </div>
           </div>
-          {/* <div className="row">
+          <div className="row">
             <div className="col-md-10 col-md-offset-1">{renderYoutubeVideo()}</div>
-          </div> */}
+          </div>
           <div className="row">
             <div className="col-md-10 col-md-offset-1">
               <ImageGallery items={photos} showBullets={false} />;

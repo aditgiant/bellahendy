@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from 'react';
 import { object, string, bool, func } from 'prop-types';
 import { Link } from 'gatsby';
-import BackgroundVideo from '@assets/images/bg-welcome-vid.mp4';
+import BackgroundVideo from '@assets/images/bg-welcome-vid_1.mp4';
 import WeddingImg from '@assets/images/wedding-logo.png';
 import CountContainer from './CountContainer';
 import ScrollToDown from './ScrollToDown';
