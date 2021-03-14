@@ -64,12 +64,12 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
         css={styBackground}
         data-stellar-background-ratio="0.5">
       <header/>
-      <video id="bg-video" css={styBackground1} playsinline autoPlay muted loop>
+      {/* <video id="bg-video" css={styBackground1} playsinline autoPlay muted loop>
           <source src={BackgroundVideo} type="video/mp4"/>
       </video>
       <script>
         document.getElementById('bg-video').play();
-      </script>
+      </script> */}
         <div className="overlay"></div>
         <div className="container">
           <div className="row" css={styWrapper}>
