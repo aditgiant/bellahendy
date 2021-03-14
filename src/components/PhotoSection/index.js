@@ -8,10 +8,10 @@ function PhotoSection() {
   const renderYoutubeVideo = () => {
     return (
       <iframe
-        title="Pre-Wedding Dinda & Indra"
+        title="Pre-Wedding Bella & Hendy"
         width="100%"
         height="360px"
-        src={prewedding}
+        src="https://www.youtube.com/embed/FAi0QlI95kg"
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
