@@ -14,7 +14,7 @@ function StorySection() {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-              <h2 className="main-font">Our Journey</h2>
+              <h2 className="main-font">Bella & Hendy</h2>
               <p className="sub-title">Kisah kasih sejak awal kami berjumpa</p>
             </div>
           </div>
