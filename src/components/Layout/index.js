@@ -7,7 +7,7 @@ import '@assets/css/icomoon.css';
 import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
 
-// const IMAGE_URL = `https://thekusuma.com/static/slide-6-4715e29302dbaa2ba21494c6258298d4.jpg`;
+const IMAGE_URL = `https://thekusuma.com/static/slide-6-4715e29302dbaa2ba21494c6258298d4.jpg`;
 const META_DESCRIPTION = `Our love stories :)`;
 
 function MainLayout({ children }) {
@@ -21,7 +21,7 @@ function MainLayout({ children }) {
 
         {/* font and SEO tags */}
         <meta property="og:title" content="The Wedding of Bella & Hendy" />
-        <meta property="og:image" content="./bella-hendy.jpg"/>
+        <meta property="og:image" content={IMAGE_URL}/>
         <meta property="og:url" content="https://bellahendy.com" />
         <meta property="og:site_name" content="The Wedding of Bella & Hendy" />
         <meta property="og:description" content={META_DESCRIPTION} />
